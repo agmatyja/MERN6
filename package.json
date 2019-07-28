@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "npm-run-all -p -l start:*",
+    "start": "npm-run-all -p -l start:server",
     "start:server": "cd server && yarn start",
     "start:client": "cd client && yarn start",
     "install:client": "cd client && npm install",
