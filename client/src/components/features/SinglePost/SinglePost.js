@@ -16,7 +16,6 @@ class SinglePost extends React.Component {
   }
 
   render() {
-    const { location } = this.props;
     const { post, request } = this.props;
 	 
     if (!request.pending && request.success && post) 
