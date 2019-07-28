@@ -1,2 +1,2 @@
-export const API_URL = 'https://dashboard.heroku.com/apps/mernblogapp';
+export const API_URL = 'https://mernblogapp.herokuapp.com';
 export const BASE_URL = "2271546042881927";
