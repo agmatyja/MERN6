@@ -5,12 +5,12 @@ const mongoose = require('mongoose');
 const loadTestData = require('./testData');
 const helmet = require('helmet');
 const sanitize = require('mongo-sanitize');
+const path = require('path');
 
 const app = express();
 
 // import routes
 const postRoutes = require('./routes/post.routes');
-const path = require('path');
 app.use(cors());
 app.use(express.urlencoded({ extended: false }));
 app.use(express.json());
