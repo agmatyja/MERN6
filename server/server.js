@@ -17,11 +17,11 @@ app.use(express.json());
 app.use('/api', postRoutes);
 app.use(helmet());
 app.use(sanitize);
-// Serve static files from the React app
-app.use(express.static(path.join(__dirname, '/../client/build')));
 app.get('*', (req, res) => {
   res.sendFile(path.join(__dirname + '/../client/build/index.html'));
 }); 
+// Serve static files from the React app
+app.use(express.static(path.join(__dirname, '/../client/build')));
 
 // connects our back end code with the database
 mongoose.connect(config.DB, { useNewUrlParser: true });
