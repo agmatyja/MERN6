@@ -8,8 +8,8 @@
     "start": "npm-run-all -p -l start:server",
     "start:server": "cd server && yarn start",
     "start:client": "cd client && yarn start",
-    "install:client": "cd client && npm install",
     "install:server": "cd server && npm install",
+    "install:client": "cd client && npm install",
     "postinstall": "run-p install:*"
   },
   "author": "Agnieszka Matyja",
