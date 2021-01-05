@@ -15,7 +15,7 @@
   "author": "Agnieszka Matyja",
   "license": "ISC",
   "dependencies": {
-    "axios": "^0.19.0",
+    "axios": "^0.21.1",
     "helmet": "3.18.0",
     "heroku-cli": "^7.0.9",
     "mongo-sanitize": "^1.0.1",
